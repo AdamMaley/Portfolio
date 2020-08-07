@@ -1,0 +1,30 @@
+.footer-container {
+    height: 100%;
+    background: #fff;
+    font-family: "Lato", sans-serif;
+}
+
+.footer {
+    display: block;
+    /* height: 20vh; */
+    background-color: rgb(1, 172, 15);
+    background-size: cover;
+    background-position: top;
+}
+
+.footer {
+    color: black;
+}
+
+.footer-navigation {
+ border-top: 1px solid #fff;
+}
+
+.footer li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer-copyright {
+    border-top: 1px solid black
+}

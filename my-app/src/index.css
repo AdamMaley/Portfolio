@@ -1,0 +1,14 @@
+
+
+body {
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding: 1em;
+  line-height: 1.7;
+  color: #777;
+}
+a {
+  text-decoration: none;
+}
