@@ -1,0 +1,40 @@
+.card {
+    background-color: rgb(0, 105, 9);
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.5);
+}
+
+img {
+    /* padding: 1em; */
+    
+}
+
+h3 {
+    margin: 0;
+    color: black;
+}
+
+p {
+    color: black;
+    /* margin: 1em; */
+}
+
+
+.source-btn {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 2rem;
+  padding: 0.7em;
+  margin: 0.5em;
+}
+
+.demo-btn {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 2rem;
+    padding: 0.7em;
+    margin: 0.5em;
+}

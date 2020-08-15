@@ -2,29 +2,45 @@
     height: 100%;
     background: #fff;
     font-family: "Lato", sans-serif;
+    margin: 1em 0 0 0;
+
 }
 
 .footer {
     display: block;
-    /* height: 20vh; */
-    background-color: rgb(1, 172, 15);
+    background-color: rgb(0, 105, 9);
     background-size: cover;
     background-position: top;
-}
-
-.footer {
     color: black;
+
+    --auto-grid-min-size: 16rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 1rem;
 }
 
-.footer-navigation {
- border-top: 1px solid #fff;
+.footer > .logo {
+    justify-self: center;
+}
+
+
+
+.footer-list {
+    border-top: 1px solid #fff;
+    margin: 0;
+    padding: 0;
 }
 
 .footer li {
     text-decoration: none;
     list-style-type: none;
+    margin: 1em;
+}
+
+a {
+    color: #fff;
 }
 
 .footer-copyright {
-    border-top: 1px solid black
+    border-top: 1px solid white;
 }
