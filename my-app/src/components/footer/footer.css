@@ -16,7 +16,7 @@
     --auto-grid-min-size: 16rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-    grid-gap: 1rem;
+    gap: 1rem;
 }
 
 .footer > .logo {
@@ -43,4 +43,45 @@ a {
 
 .footer-copyright {
     border-top: 1px solid white;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (min-width: 576px) {
+    
+    .footer {
+        display: block;
+        background-size: cover;
+        background-position: top;
+        color: black;
+        --auto-grid-min-size: 16rem;
+        display: grid;
+        grid-template-columns: auto 33%;
+        grid-template-rows: 8% 30% 2 10%;
+        grid-template-areas:
+            "logo logo logo"
+            "list . copyright";
+    }
+    
+    .footer > .logo {
+        justify-self: center;
+        grid-area: logo;
+    }
+    
+
+    .footer-list {
+        border-top: 1px solid #fff;
+        margin: 0;
+        padding: 0;
+        grid-area: list;
+    }
+
+    .footer-copyright {
+        border-top: 1px solid white;
+        grid-area: copyright;
+    }
+
+
 }

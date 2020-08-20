@@ -1,13 +1,10 @@
 .card {
+    width: 100%;
     background-color: rgb(0, 105, 9);
-    margin: 1em;
-    padding: 1em;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.5);
-}
-
-img {
-    /* padding: 1em; */
-    
+    padding-top: 1em;
+    padding-bottom: 1em;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
 }
 
 h3 {
@@ -17,24 +14,32 @@ h3 {
 
 p {
     color: black;
-    /* margin: 1em; */
 }
 
 
 .source-btn {
   text-decoration: none;
   background-color: #ffffff;
-  color: black;
+  color: #777;
   border-radius: 2rem;
   padding: 0.7em;
   margin: 0.5em;
 }
 
+.source-btn:hover {
+    background-color: rgb(211, 216, 211);
+}
+
 .demo-btn {
     text-decoration: none;
     background-color: #ffffff;
-    color: black;
+    color: #777;
     border-radius: 2rem;
     padding: 0.7em;
     margin: 0.5em;
+}
+
+
+.demo-btn:hover {
+    background-color: rgb(211, 216, 211);
 }

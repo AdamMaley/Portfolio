@@ -2,7 +2,7 @@
 const projects = [
     {
       id: 1,
-      img: "https://picsum.photos/200/300/?blur",
+      img: "https://picsum.photos/seed/picsum/200/300",
       title: 'FIRST PROJECT',
       description: "This is first project",
       source: "https://github.com/AdamMaley/CSSArtGhost",
@@ -18,7 +18,7 @@ const projects = [
     },
     {
       id: 3,
-      img: "https://picsum.photos/200/300/?blur",
+      img: "https://picsum.photos/seed/picsum/200/300",
       title: 'THIRD PROJECT',
       description: "This is third project",
       source: "https://picsum.photos/200/300/?blur",
@@ -26,7 +26,7 @@ const projects = [
     },
     {
       id: 4,
-      img: "https://picsum.photos/200/300/?blur",
+      img: "https://picsum.photos/seed/picsum/200/300",
       title: 'FOURTH PROJECT',
       description: "This is fourth project",
       source: "https://picsum.photos/200/300/?blur",
@@ -34,7 +34,7 @@ const projects = [
     },
     {
       id: 5,
-      img: "https://picsum.photos/200/300/?blur",
+      img: "https://picsum.photos/seed/picsum/200/300",
       title: 'FIFTH PROJECT',
       description: "This is fifth project",
       source: "https://picsum.photos/200/300/?blur",
@@ -42,7 +42,7 @@ const projects = [
     },
     {
       id: 6,
-      img: "https://picsum.photos/200/300/?blur",
+      img: "https://picsum.photos/seed/picsum/200/300",
       title: 'SIXTH PROJECT',
       description: "This is sixth project",
       source: "https://picsum.photos/200/300/?blur",

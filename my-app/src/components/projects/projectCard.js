@@ -8,8 +8,8 @@ function ProjectCard(props) {
             <img src={props.img} alt={`image of ${props.title} project`} />
             <h3>{props.title}</h3>
             <p>{props.description}</p>
-            <a className="source-btn" href={props.source}>Source</a>
-            <a className="demo-btn" href={props.demo}>Demo</a>
+            <a className="source-btn" href="#"  target="_blank">Source</a>
+            <a className="demo-btn" href="#"  target="_blank">Demo</a>
         </div>
     )
 }
